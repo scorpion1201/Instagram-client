@@ -34,7 +34,7 @@ def hashtag_crawl(tagname):
     return data
 
 if __name__ == "__main__":
-    data = hashtag_crawl("나불돈")
+    data = hashtag_crawl("Spotify")
     print(json.dumps(data, indent=4, sort_keys=True))
 ```
 
