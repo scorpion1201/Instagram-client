@@ -34,7 +34,7 @@ setup_params = dict(
         Topic :: Utilities
         """).strip().splitlines(),
     python_requires='!=2.*.*,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*',
-    setup_requires=['requests'],
+    install_requires=['requests'],
 )
 
 if __name__ == "__main__":
